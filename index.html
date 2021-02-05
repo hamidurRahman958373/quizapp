@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-div">
+        <div id="start">
+                কুইজ শুরু করুন 
+        </div>
+        <!--guide -->
+            <div id="guide">
+                <h2>কুইজের নিয়ম </h2>
+                <h4>১।  প্রতিটি প্রশ্নের জন্য ২০ সেকেন্ড সময় পাবেন। </h4>
+                <h4>২। একবার উত্তর সাবমিট করলে পরিবর্তন  করতে পারবেন না।  </h4>
+                <h4>৩। সঠিক উত্তরের সাপেক্ষে আপনি আপনার নাম্বার পাবেন। </h4>
+                <h4>৪। কুইজ শেষ না হওয়া পর্যন্ত আপনি বের হইতে পারবেন না।  </h4>
+                <!--button section -->
+                <div id="button">
+                      <button id="exit">বাহির </button>
+                      <button id="Continue">চালিয়ে যান </button>
+                </div>
+            </div>
+
+        <div id="inner-div">
+            <h2 class="question"></h2>
+            <ul  >
+                <li>
+                    <input type="radio" id="ans1" name="answer" class="answer">
+                    <label for="ans1" id="option1"> Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" id="ans2" name="answer" class="answer">
+                    <label for="ans2" id="option2"> Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" id="ans3" name="answer" class="answer">
+                    <label for="ans3" id="option3"> Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" id="ans4" name="answer" class="answer">
+                    <label for="ans4" id="option4"> Answer Option</label>
+                </li>
+            </ul>
+            <button id="submit">জমা দিন</button>
+           
+        </div>
+         <div id="showScore" class="scorearea">  
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
